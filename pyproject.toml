@@ -12,8 +12,12 @@ pre-commit = "^2.20.0"
 sphynx = "^0.0.3"
 sphinx-rtd-theme = "^1.1.1"
 
-[tool.poetry.extras]
-docs = ["sphinx", "sphinx-rtd-theme"]
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphynx = "^0.0.3"
+sphinx-rtd-theme = "^1.1.1"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.19.2"

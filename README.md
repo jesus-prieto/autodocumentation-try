@@ -1,2 +1,2 @@
-# predator-prey
-python implementation for a predator prey simulation
+# python enviroment set up with sphynx autodocumentation
+python enviroment set up with sphynx autodocumentation
